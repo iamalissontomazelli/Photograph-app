@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de fotografia profissional. Histórias reais, momentos únicos.">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>LEANDRO HENRY — Fotografia</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Alves Fotografia, início">
+      <span class="brand-mark">◉</span>
+      <span>LEANDRO HENRY<small>PHOTOGRAPHY</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a><a href="#portfolio">Portfólio</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a>
+    </nav>
+    <div class="language-switch">
+
+  <button class="language-btn active"
+          data-language="pt"
+          aria-label="Português">
+    🇧🇷
+  </button>
+
+  <button class="language-btn"
+          data-language="en"
+          aria-label="English">
+    🇮🇪
+  </button>
+
+</div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-label="Destaque">
+      <div class="hero-slides">
+        <article class="hero-slide active" style="--hero:url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2200&q=90')">
+          <div class="hero-shade"></div><div class="hero-copy">
+            <p class="eyebrow">FOTOGRAFIA PROFISSIONAL</p>
+            <h1>Momentos reais,<br>histórias únicas.</h1>
+            <p class="hero-description">Fotografias que preservam a emoção de cada instante.</p>
+            <a class="outline-button" href="#portfolio">Explorar portfólio <span>↗</span></a>
+          </div>
+        </article>
+        <article class="hero-slide" style="--hero:url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=2200&q=90')">
+          <div class="hero-shade"></div><div class="hero-copy">
+            <p class="eyebrow">RETRATOS & PESSOAS</p><h1>Essência em<br>cada detalhe.</h1>
+            <p class="hero-description">Retratos autênticos, feitos para durar.</p>
+            <a class="outline-button" href="#portfolio">Ver fotografias <span>↗</span></a>
+          </div>
+        </article>
+        <article class="hero-slide" style="--hero:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2200&q=90')">
+          <div class="hero-shade"></div><div class="hero-copy">
+            <p class="eyebrow">PAISAGENS & VIAGENS</p><h1>O mundo visto<br>por outra lente.</h1>
+            <p class="hero-description">Lugares, luzes e histórias que merecem ser lembrados.</p>
+            <a class="outline-button" href="#portfolio">Descobrir mais <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+      <button class="hero-arrow prev" aria-label="Fotografia anterior">‹</button>
+      <button class="hero-arrow next" aria-label="Próxima fotografia">›</button>
+      <div class="hero-dots" aria-label="Selecionar destaque">
+        <button class="dot active" aria-label="Destaque 1"></button><button class="dot" aria-label="Destaque 2"></button><button class="dot" aria-label="Destaque 3"></button>
+      </div>
+      <div class="hero-counter"><span id="slide-current">01</span> / 03</div>
+    </section>
+
+    <section class="featured section-wrap">
+      <div class="section-heading">
+        <div><p class="eyebrow">UM OLHAR, MUITAS HISTÓRIAS</p><h2>Em destaque<span>.</span></h2></div>
+        <a class="text-link" href="#portfolio">Ver todo o portfólio ↗</a>
+      </div>
+      <div class="featured-track-wrap">
+        <button class="gallery-arrow gallery-prev" aria-label="Fotos anteriores">‹</button>
+        <div class="featured-track">
+          <figure class="featured-card"><img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=900&q=85" alt="Nascer do sol sobre as montanhas"><figcaption><span>01 / PAISAGEM</span><b>Primeira luz</b></figcaption></figure>
+          <figure class="featured-card"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85" alt="Retrato feminino em luz natural"><figcaption><span>02 / RETRATO</span><b>Entre olhares</b></figcaption></figure>
+          <figure class="featured-card"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=85" alt="Casal em cerimônia de casamento"><figcaption><span>03 / EVENTO</span><b>Para sempre</b></figcaption></figure>
+          <figure class="featured-card"><img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=85" alt="Céu estrelado sobre montanhas"><figcaption><span>04 / VIAGEM</span><b>Silêncio da noite</b></figcaption></figure>
+        </div>
+        <button class="gallery-arrow gallery-next" aria-label="Próximas fotos">›</button>
+      </div>
+    </section>
+
+    <section class="portfolio section-wrap" id="portfolio">
+      <div class="section-heading">
+        <div><p class="eyebrow">TRABALHOS SELECIONADOS</p><h2>Portfólio<span>.</span></h2></div>
+        <p class="section-note">Uma seleção de histórias contadas através da fotografia.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrar fotografias">
+        <button class="filter active" data-filter="all">Tudo</button><button class="filter" data-filter="paisagem">Paisagens</button><button class="filter" data-filter="retrato">Retratos</button><button class="filter" data-filter="eventos">Eventos</button><button class="filter" data-filter="viagem">Viagens</button>
+      </div>
+      <div class="photo-grid">
+        <button class="photo-item tall" data-category="paisagem" data-full="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1800&q=90"><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=85" alt="Lago cercado por montanhas"><span>PAISAGENS · 01</span></button>
+        <button class="photo-item" data-category="retrato" data-full="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1800&q=90"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85" alt="Retrato feminino"><span>RETRATOS · 02</span></button>
+        <button class="photo-item" data-category="viagem" data-full="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=90"><img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=85" alt="Montanhas sob céu noturno"><span>VIAGENS · 03</span></button>
+        <button class="photo-item" data-category="eventos" data-full="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1800&q=90"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=85" alt="Casamento ao ar livre"><span>EVENTOS · 04</span></button>
+        <button class="photo-item wide" data-category="paisagem" data-full="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=90"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85" alt="Paisagem de montanhas"><span>PAISAGENS · 05</span></button>
+        <button class="photo-item" data-category="retrato" data-full="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1800&q=90"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=85" alt="Retrato masculino"><span>RETRATOS · 06</span></button>
+      </div>
+    </section>
+
+    <section class="about section-wrap" id="sobre">
+      <div class="about-image"><img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=1100&q=85" alt="Câmera fotográfica profissional"></div>
+      <div class="about-copy"><p class="eyebrow">POR TRÁS DAS LENTES</p><h2>Fotografar é<br>guardar o que<br>o tempo leva<span>.</span></h2><p>Sou fotógrafo e acredito que cada imagem tem uma história para contar. Meu trabalho é observar os detalhes, encontrar a luz e transformar momentos em memórias.</p><p class="about-signature">Sua história merece ser registrada.</p><a class="text-link" href="#contato">Vamos conversar ↗</a></div>
+    </section>
+
+    <section class="contact section-wrap" id="contato">
+      <div class="contact-intro"><p class="eyebrow">VAMOS CRIAR ALGO ESPECIAL?</p><h2>Qual história<br>vamos contar<span>?</span></h2><p>Conte um pouco sobre sua ideia. Será um prazer conversar sobre seu projeto.</p><div class="contact-detail"><span>EMAIL</span><a href="mailto:contato@seudominio.com">contato@seudominio.com</a></div><div class="contact-detail"><span>INSTAGRAM</span><a href="#">@seuinstagram</a></div></div>
+      <form class="contact-form" id="contact-form">
+        <label for="name">Nome completo *</label><input id="name" name="name" type="text" placeholder="Como podemos te chamar?" required>
+        <div class="form-row"><div><label for="email">E-mail *</label><input id="email" name="email" type="email" placeholder="seu@email.com" required></div><div><label for="phone">Telefone</label><input id="phone" name="phone" type="tel" placeholder="+55 (00) 00000-0000"></div></div>
+        <label for="message">Conte sua ideia *</label><textarea id="message" name="message" rows="5" placeholder="Descreva brevemente o que você está imaginando..." required></textarea>
+        <button class="submit-button" type="submit">Enviar mensagem <span>↗</span></button>
+        <p class="form-note">* Campos obrigatórios. O envio abrirá seu aplicativo de e-mail.</p>
+        <p class="form-feedback" id="form-feedback" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#inicio"><span class="brand-mark">◉</span><span>LEANDRO HENRY<small>PHOTOGRAPHY</small></span></a><p>© <span id="year"></span> Alves Photography. Todos os direitos reservados.</p><a href="#inicio" class="back-top">Voltar ao topo ↑</a></footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox-close" aria-label="Fechar imagem">×</button><button class="lightbox-prev" aria-label="Imagem anterior">‹</button><img src="" alt=""><button class="lightbox-next" aria-label="Próxima imagem">›</button></div>
+
+  
+  <script src="/script/script.js"></script>
+</body>
+</html>
